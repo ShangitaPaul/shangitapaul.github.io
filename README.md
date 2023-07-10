@@ -1,6 +1,8 @@
 # shangitapaul.github.io
 Shangita Paul Software Engineer Portfolio
 
+https://shangitapaul.github.io
+
 Welcome to my professional portfolio. This website is meant to showcase my front-end and back-end web development skills, as well as act as working model of my advancing back-end skills for maximimum data management and user experiencce.
 
 Future Advanced Back-End Implementations:
