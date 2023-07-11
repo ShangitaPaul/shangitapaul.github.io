@@ -310,21 +310,13 @@ footer {
   border: 0;
 }
 .award .logo  {
-  width: 100px;
+  width: 300px;
   border-radius: 0;
 }
 .award .description {
   display: none;
 }
-.award .button {
-  background-color: #000;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-.award .button:hover {
-  background-color: #008000;
-}
+
 #error-message {
   color: red;
   margin-top: 5px;
