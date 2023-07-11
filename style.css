@@ -233,8 +233,8 @@ footer {
 }
 
 .project-item img {
-  width: 100%; /* Set the desired width */
-  height: auto;
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -250,14 +250,14 @@ footer {
 }
 
 .collapsible-content img {
-  width: 100%; /* Set the desired width */
-  height: auto;
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 50%;
   animation: slideIn 0.5s ease;
-}
+ }
 
 .collapsible.open {
   display: block;
@@ -289,7 +289,7 @@ footer {
 }
 
 .certification-images img {
-  width: 100%;
+  width: 600px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   border-radius: 8px;
 }
