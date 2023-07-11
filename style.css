@@ -297,6 +297,11 @@ footer {
   border-radius: 8px;
 }
 
+.certification-images img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .section {
   border: none;
 }
@@ -304,6 +309,7 @@ footer {
 .section .subsection {
   border: none;
 }
+/*Awards*/
 .award {
   border: 0;
 }
@@ -311,6 +317,10 @@ footer {
   width: 500px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   border-radius: 8px;
+}
+.award .logo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .award .description {
   display: none;
