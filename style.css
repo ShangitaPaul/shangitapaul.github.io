@@ -298,6 +298,25 @@ footer {
   border-radius: 8px;
 }
 
+.award {
+  padding: 10px;
+  border: 1px solid black;
+}
+.award .logo {
+  width: 100px;
+}
+.award .description {
+  display: none;
+}
+.award .button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.award .button:hover {
+  background-color: #008000;
+}
 #error-message {
   color: red;
   margin-top: 5px;
