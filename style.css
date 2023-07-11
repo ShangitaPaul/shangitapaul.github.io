@@ -298,12 +298,20 @@ footer {
   border-radius: 8px;
 }
 
+.section {
+  border: none;
+}
+
+.section .subsection {
+  border: none;
+}
 .award {
   padding: 10px;
-  border: 1px solid black;
+  border: 0;
 }
-.award .logo {
+.award .logo  {
   width: 100px;
+  border-radius: 0;
 }
 .award .description {
   display: none;
