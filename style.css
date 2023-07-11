@@ -98,6 +98,7 @@ nav ul li a:hover {
     margin: 0 10px;
   }
   .project-item img,
+  .award .logo,
   .certification-images img {
     width: 100%;
     height: auto;
