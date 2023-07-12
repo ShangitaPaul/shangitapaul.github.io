@@ -345,8 +345,6 @@ footer {
 
 .prof-dev {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .prof-dev div {
@@ -354,10 +352,17 @@ footer {
 }
 
 .books {
-  max-width: 250px;
-  height: auto;
+  border: 2px solid black; 
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+  border-radius: 8px;
 }
-
+.books: hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
 #error-message {
   color: red;
