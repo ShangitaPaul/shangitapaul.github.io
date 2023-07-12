@@ -99,7 +99,7 @@ nav ul li a:hover {
   }
   .project-item img,
   .award .logo,
-  .books img,
+  .books,
   .certification-images img {
     width: 100%;
     height: auto;
@@ -333,20 +333,31 @@ footer {
 }
 
 /* Procesional Dev*/
-,books {
-  border: 0;
+#professional-dev {
+  text-align: center;
+  padding: 20px;
 }
-.books img {
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.prof-dev {
   display: flex;
   justify-content: center;
-  width: 250px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
-  border-radius: 8px;
+  align-items: center;
 }
-.books img {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+.prof-dev div {
+  margin: 10px;
 }
+
+.books {
+  max-width: 250px;
+  height: auto;
+}
+
 
 #error-message {
   color: red;
