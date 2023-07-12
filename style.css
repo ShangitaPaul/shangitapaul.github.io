@@ -321,18 +321,27 @@ footer {
   border-radius: 8px;
 }
 
-  width: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
-  border-radius: 8px;
-}
 
-.award .logo:hover {
+.award .logo: hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .award .description {
   display: none;
+}
+
+/* Procesional Dev*/
+.books img {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+  border-radius: 8px;;
+}
+.books img {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 #error-message {
