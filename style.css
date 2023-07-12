@@ -99,7 +99,7 @@ nav ul li a:hover {
   }
   .project-item img,
   .award .logo,
-  .books,
+  .prof-dev img,
   .certification-images img {
     width: 100%;
     height: auto;
@@ -317,24 +317,22 @@ footer {
 .award .logo {
   display: flex;
   justify-content: center;
-  width: 250px;
+  width: 200px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   border-radius: 8px;
 }
 
 
-.award .logo: hover {
+.award .logo:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .award .description {
   display: none;
 }
 
 /* Procesional Dev*/
 #professional-dev {
-  text-align: center;
   padding: 20px;
 }
 
@@ -345,24 +343,20 @@ footer {
 
 .prof-dev {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.prof-dev div {
-  margin: 10px;
-}
-
-.books {
-  border: 2px solid black; 
+.prof-dev img {
   display: flex;
   justify-content: center;
   width: 250px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   border-radius: 8px;
+  border: 2px solid black;
 }
-.books: hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+
+
 
 #error-message {
   color: red;
