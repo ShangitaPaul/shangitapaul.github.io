@@ -341,9 +341,7 @@ footer {
 }
 
 .prof-dev {
-  display: flex;
-  justify-content: center;
-  
+  display: flex;  
 }
 
 .prof-dev img {
