@@ -332,7 +332,9 @@ footer {
 }
 
 /* Procesional Dev*/
-
+,books {
+  border: 0;
+}
 .books img {
   display: flex;
   justify-content: center;
