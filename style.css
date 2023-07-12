@@ -342,13 +342,13 @@ footer {
 
 .prof-dev {
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
 .prof-dev img {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   width: 200px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   border-radius: 8px;
