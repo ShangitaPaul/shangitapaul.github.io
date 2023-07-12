@@ -99,6 +99,7 @@ nav ul li a:hover {
   }
   .project-item img,
   .award .logo,
+  .books img,
   .certification-images img {
     width: 100%;
     height: auto;
