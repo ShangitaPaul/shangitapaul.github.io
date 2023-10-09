@@ -47,8 +47,8 @@ header img {
   max-width: 100%;
   height: 300px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(236, 239, 240, 0.408);
-  border-radius: 8px; 
+  box-shadow: none;
+  border-radius: none; 
   animation: slideIn 0.5s ease;
 }
 
